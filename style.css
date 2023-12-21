@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(65, 195, 235);
+}
+
+header {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 45rem;
+    background-color: rgb(8, 146, 180);
+}
+
+.navigation {
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+    color: blueviolet;
+}
+
+.booklstContainer {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.booklstContainer h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 3rem;
+    text-decoration: dotted;
+}
+
+.bookList {
+    padding: 1rem;
+    border: 2px dotted black;
+    width: 50rem;
+    height: max-content;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.addBook {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.addBook h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.form label {
+    margin-top: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: justify;
+
+}
+
+.form input {
+    border-radius: .24rem;
+    width: 15rem;
+    height: 1.5rem;
+}
+
+.form button {
+    width: 6rem;
+    height: 1.75rem;
+    margin-top: 1rem;
+    color: black;
+    border-color: rgb(88, 88, 243);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button:hover {
+    background-color: rgb(76, 168, 255);
+    color: #000;
+    border-color: green;
+}
+
+.Blist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30rem;
+    margin-bottom: 2rem;
+}
+
+.removebtn {
+    width: 7rem;
+    color: black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: .15rem;
+}
+
+.removebtn:hover {
+    cursor: pointer;
+    border-color: red;
+    background-color: red;
+}
+
+.contactForm {
+    margin-top: 8rem;
+    padding-left: 5rem;
+}
+
+.contactForm p {
+    margin-bottom: 2rem;
+}
+
+.contactListContainer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+}
+
+.contactListContainer li {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+
+.footer p {
+    margin-left: 35rem;
+    position: absolute;
+    bottom: 5rem;
+}
